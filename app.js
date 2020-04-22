@@ -15,11 +15,13 @@ app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
 // Connect to MongoDB
+/* Uncomment this code to make a connection to database
 const db = require('./config/keys').mongoURI;
 mongoose
   .connect(db, { useNewUrlParser: true } )
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log(err));
+*/
 
 // Routes
 app.use('/', require('./routes/index.js'));
