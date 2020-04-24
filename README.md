@@ -5,7 +5,7 @@ This repository consists of pre-written NodeJS code so you can start quickly.
   <li>Clone this Repository</li>
   <li>Open the command line in the Folder where you have the Cloned Repository</li>
   <li>Type: 'npm install' and Press Enter</li>
-  <li>Start With the app with: 'nodemon app'</li>
+  <li>Start the app with: 'nodemon app'</li>
 </ul>
 <h4>The template already has connection with a mongoDB database made, just enter your mongo URL in config/keys.ejs. A route to '/' path is also set up.</h4>
 <h3>File Structure</h3>
